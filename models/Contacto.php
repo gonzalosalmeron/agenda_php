@@ -32,7 +32,7 @@
             $db = Database::getDatabase();
             
             $resultado = $db->escape($_POST);
-
+            
             $sql = "INSERT INTO contacto 
                 VALUES (null, 
                     '{$resultado["nombre"]}',

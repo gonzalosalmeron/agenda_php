@@ -17,7 +17,7 @@
         private function __construct() 
         {   
             try {
-                $this->con = new mysqli("db-servidorweb.codl8hbhgwdu.us-east-1.rds.amazonaws.com", "root", "gGxFMoFoLs5G2rNXLWi7", "agenda");
+                $this->con = new mysqli("db-servidorweb.codl8hbhgwdu.us-east-1.rds.amazonaws.com", "admin", "Malaga00", "agenda");
             } catch (mysqli_sql_exception $e) {
                 die("******** Error con la base de datos: {$e} ********");
             }
